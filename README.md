@@ -4,7 +4,7 @@
 This project takes data from the Human Activity Recognition Using Smartphones dataset, cleans, combines, and performs some summarization and analysis. This analysis creates 2 products:
 
 * A dataframe that combines the Test and Train datasets, which includes 30 subjects, 6 activities per subject, multiple observations per activity and 561 features of those recorded observations, and
-* a file, "tidy.csv", which contains for each subject's activities, the mean of observations for features related to the standard deviation and the mean. "tidy.csv" will be written to your working directory.
+* a file, "tidy.csv", which contains for each subject's activities, the mean of observations for features related to the standard deviation and the mean. "tidy.txt" will be written to your working directory.
 
 #### Usage
 
