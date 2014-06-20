@@ -1,8 +1,8 @@
 ## Codebook
 
-#### This project takes data from the Human Activity Recognition Using Smartphones dataset, cleans, combines, and performs some summarization.
+#####This project takes data from the Human Activity Recognition Using Smartphones dataset, cleans, combines, and performs some summarization.
 
-#### The Human Activity Recognition database was built from recordings of 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors. 30 volunteers between the ages of 19-48 performed 6 activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) while wearing a smartphone with an embedded acceleromter and gyroscope. 3-axial liner acceleration and 3-axial angular velocity was recorded at a constant rate of50Hz. The dataset was randomly partitioned into two sets, where 30% ofthe volunteers were selected to generate the test data, and the other 70% generated training data.
+The Human Activity Recognition database was built from recordings of 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors. 30 volunteers between the ages of 19-48 performed 6 activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) while wearing a smartphone with an embedded acceleromter and gyroscope. 3-axial liner acceleration and 3-axial angular velocity was recorded at a constant rate of50Hz. The dataset was randomly partitioned into two sets, where 30% ofthe volunteers were selected to generate the test data, and the other 70% generated training data.
 
 
 * The data is available at 
@@ -10,11 +10,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * and the full experiment is located at 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-#### run_analyis.R creates two products:
+### run_analyis.R creates two products:
 * A dataframe that combines the Test and Train datasets, which includes 30 subjects, 6 activities per subjecct, multiple observations per activity and 561 features of those recorded observations, and
 * a file, "tidy.csv", which contains for each subject's activities, the mean of observations for features related to the standard deviation and the mean.
 
-####There are 68 features related to either the standard deviation or the mean. They are:
+##There are 68 features related to either the standard deviation or the mean. They are:
 
 * tBodyAcc.mean...X
 * tBodyAcc.mean...Y
