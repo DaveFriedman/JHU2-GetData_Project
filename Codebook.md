@@ -14,7 +14,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 * A dataframe that combines the Test and Train datasets, which includes 30 subjects, 6 activities per subjecct, multiple observations per activity and 561 features of those recorded observations, and
 * a file, "tidy.csv", which contains for each subject's activities, the mean of observations for features related to the standard deviation and the mean.
 
-##There are 68 features related to either the standard deviation or the mean. They are:
+### There are 68 features related to either the standard deviation or the mean. They are:
 
 * tBodyAcc.mean...X
 * tBodyAcc.mean...Y
